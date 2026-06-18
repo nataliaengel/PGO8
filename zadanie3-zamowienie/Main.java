@@ -1,4 +1,4 @@
-public class Zadanie3 {
+public class Main {
     public static void main(String[] args) {
         Order order = new Order("ORD-100", "Anna Kowalska");
         order.addItem(new Order.OrderItem("Klawiatura", 249.99, 1));
@@ -9,6 +9,7 @@ public class Zadanie3 {
                 order.getCustomerName(),
                 order.total()
         );
+
         System.out.println(summary);
     }
 }

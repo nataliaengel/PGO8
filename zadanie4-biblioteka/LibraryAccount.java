@@ -9,7 +9,9 @@ public class LibraryAccount {
         this.lateDays = lateDays;
     }
 
-    public String getReaderName() { return readerName; }
+    public String getReaderName() {
+        return readerName;
+    }
 
     public class FineCalculator {
         public double calculate() {
